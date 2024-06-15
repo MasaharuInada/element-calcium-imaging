@@ -80,6 +80,7 @@ Here are some options that provide a great experience:
 You will know your environment has finished loading once you either see a terminal open related to `Running postStartCommand` with a final message of `Done` or the `README.md` is opened in `Preview`.
 
 Once the environment has launched, please run the following command in the terminal:
+MYSQLを使えるようにするために必須
 ```
 MYSQL_VER=8.0 docker compose -f docker-compose-db.yaml up --build -d
 ```

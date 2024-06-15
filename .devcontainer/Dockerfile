@@ -43,7 +43,8 @@ ENV DJ_HOST fakeservices.datajoint.io
 ENV DJ_USER root
 ENV DJ_PASS simple
 
-ENV IMAGING_ROOT_DATA_DIR /workspaces/element-calcium-imaging/example_data
+# ENV IMAGING_ROOT_DATA_DIR /workspaces/element-calcium-imaging/example_data
+ENV IMAGING_ROOT_DATA_DIR /workspaces/element-calcium-imaging/data
 ENV DATABASE_PREFIX neuro_
 
 USER vscode
